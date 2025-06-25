@@ -1,11 +1,9 @@
-import React from 'react';
-import { Menu, Dropdown, Button } from 'antd';
+import { Menu, Dropdown} from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 import { Routes, Route, Link } from 'react-router-dom';
 import LandingSection from './LandingSection';
 import HomeSection from './HomeSection';
 import ServicesPage from './ServicesPage';
-import FaqSection from './FaqSectionPage';
 import ContactSection from './ContactSection';
 import logo from './assets/logo.png.png';
 import Destinations from './Destinations';

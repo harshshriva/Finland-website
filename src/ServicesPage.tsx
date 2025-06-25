@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from 'antd';
 import { Link } from 'react-router-dom';
 
@@ -44,10 +43,10 @@ const ServicesPage = () => (
   <div className="py-12 px-2 md:px-0 flex flex-col items-center fade-in-up">
     <h2 className="text-3xl font-bold text-black mb-8 text-center">Our Services</h2>
     <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      {services.map((s, i) => (
+      {services?.map((s, i) => (
         <div key={i} className="rounded-lg shadow p-4 flex flex-col items-center border border-gray-200 fade-in-up" style={{ background: '#74ff33' }}>
-          {s.img ? (
-            <img src={s.img} alt={s.title} className="w-full h-48 object-cover rounded mb-4" />
+          {s?.img ? (
+            <img src={s?.img} alt={s.title} className="w-full h-48 object-cover rounded mb-4" />
           ) : (
             <div 
               className="w-20 h-20 rounded-full flex items-center justify-center text-white text-3xl mb-4"

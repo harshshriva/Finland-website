@@ -1,5 +1,3 @@
-import React from "react";
-
 const ContactSection = () => {
   return (
     <div className="py-12 px-2 md:px-0 flex justify-center fade-in-up">
