@@ -8,6 +8,8 @@ import ContactSection from './ContactSection';
 import logo from './assets/logo.png.png';
 import Destinations from './Destinations';
 import WhyChooseUs from './WhyChooseUs';
+import { useNavigate } from 'react-router-dom';
+
 
 // Constants
 const cream = 'bg-[#FFF7E6]';
@@ -50,12 +52,15 @@ function HomePage() {
 
 // Main App
 const App = () => {
+  const navigate = useNavigate();
+  
   return (
     <div className={`min-h-screen ${cream}`}>
       {/* Header */}
       <header className="flex flex-col md:flex-row items-center justify-between px-6 py-4 border-b border-gray-200 fade-in-up" style={{ background: '#74ff33 ' }}>
         <div className="flex items-center gap-3">
           <img
+            onClick={() => navigate('/')}
             src={logo}
             alt="logo"
             className="h-16 w-16 object-contain rounded-full shadow-md border-2 border-white bg-white p-1"

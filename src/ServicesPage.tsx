@@ -1,5 +1,5 @@
 import { Button } from 'antd';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const services = [
   {
@@ -39,7 +39,10 @@ const services = [
   },
 ];
 
-const ServicesPage = () => (
+const ServicesPage = () => 
+  {
+  const navigate = useNavigate();
+  return (
   <div className="py-12 px-2 md:px-0 flex flex-col items-center fade-in-up">
     <h2 className="text-3xl font-bold text-black mb-8 text-center">Our Services</h2>
     <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -53,13 +56,12 @@ const ServicesPage = () => (
             </div>
           <h3 className="text-xl font-extrabold text-black mb-2 text-center uppercase">{s.title}</h3>
           <p className="text-black text-sm mb-2 text-center">{s.desc}</p>
-          <Link to="/contact" className="w-full">
-            <Button type="primary" className="text-white w-full font-bold tracking-wider mt-auto">CONTACT US</Button>
-          </Link>
+            <Button type="primary" className="text-white w-full font-bold tracking-wider mt-auto"  onClick={() => navigate('/contact')}>CONTACT US</Button>
         </div>
       ))}
     </div>
   </div>
-);
+  );
+}
 
 export default ServicesPage;
