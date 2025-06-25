@@ -1,21 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const HomeSection: React.FC = () => {
-  const [isVisible, setIsVisible] = useState(false);
-  const [animateItems, setAnimateItems] = useState(false);
-
-  useEffect(() => {
-    // Trigger initial animation
-    setIsVisible(true);
-    
-    // Stagger the list items animation
-    const timer = setTimeout(() => {
-      setAnimateItems(true);
-    }, 800);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <div className="py-12 px-2 md:px-0 flex justify-center mt-6 fade-in-up">
       <div className="w-full max-w-6xl rounded-lg flex flex-col lg:flex-row overflow-hidden">
