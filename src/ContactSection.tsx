@@ -22,8 +22,8 @@ const ContactSection = () => {
           <p className="mb-2 text-black"><span className="font-bold">Social Media:</span> Follow us on Facebook, Instagram, LinkedIn, and YouTube.</p>
           <div className="mb-2 text-black">
             <span className="font-bold">Office Locations</span><br />
-            India:<br />
-            Finland:<br />
+            India<br />
+            Finland<br />
           </div>
         </div>
       </div>
