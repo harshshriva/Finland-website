@@ -10,8 +10,8 @@ const services = [
     btn: 'GET STARTED',
   },
   {
-    title: 'ADMISSION ASSISTANCE',
-    icon: '📚',
+    title: 'STUDY VISA',
+    icon: '🎓',
     iconBg: '#2E7D32',
     desc: 'We help you find the right university and course that matches your career goals and aspirations. Our experts provide comprehensive support in preparing and submitting your application.',
     btn: 'APPLY NOW',

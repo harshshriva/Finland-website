@@ -1,11 +1,12 @@
 import React from "react";
+import LandingPage from "../src/assets/landingIcon.jpeg"; // Assuming you have a LandingPage component
 
 const LandingSection: React.FC = () => {
   return (
     <div className="relative w-full h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <img
-        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80"
+        src={LandingPage}
         alt="Tropical island and ocean"
         className="absolute inset-0 w-full h-full object-cover z-0 scale-105 animate-pulse"
         style={{ animationDuration: '8s' }}

@@ -5,10 +5,15 @@ import LandingSection from './LandingSection';
 import HomeSection from './HomeSection';
 import ServicesPage from './ServicesPage';
 import ContactSection from './ContactSection';
-import logo from './assets/logo.png.png';
+import logo from './assets/logo.png';
 import Destinations from './Destinations';
 import WhyChooseUs from './WhyChooseUs';
 import { useNavigate } from 'react-router-dom';
+import GermanyPage from './germanyPage';
+import SpainPage from './Spain';
+import GenevaPage from './Geneva';
+
+
 
 
 // Constants
@@ -19,10 +24,17 @@ const black = 'text-black';
 const studyMenu = (
   <Menu className={`${cream} ${black}`}>
     <Menu.Item key="1">
-      <Link to="/destinations">STUDY IN GERMANY</Link>
+      <Link to="/germany">STUDY IN GERMANY</Link>
     </Menu.Item>
-    <Menu.Item key="2">STUDY IN FINLAND</Menu.Item>
-    <Menu.Item key="3">STUDY IN SPAIN</Menu.Item>
+    <Menu.Item key="2">
+      <Link to="/destinations">STUDY IN FINLAND</Link>
+    </Menu.Item>
+    <Menu.Item key="3">
+      <Link to="/spain">STUDY IN SPAIN</Link>
+    </Menu.Item>
+    <Menu.Item key="4">
+      <Link to="/geneva">STUDY IN GENEVA</Link>
+    </Menu.Item>
   </Menu>
 );
 
@@ -108,6 +120,9 @@ const App = () => {
           <Route path="/whyChooseUs" element={<WhyChooseUs />} />
           <Route path="/destinations" element={<Destinations />} />
           <Route path="/contact" element={<ContactSection />} />
+          <Route path="/germany" element={<GermanyPage/>} />
+          <Route path="/spain" element={<SpainPage/>} />
+          <Route path="/geneva" element={<GenevaPage/>} />
         </Routes>
       </div>
     </div>

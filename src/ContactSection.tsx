@@ -1,11 +1,13 @@
+import contactIcon from '../src/assets/contact.jpeg';
+
 const ContactSection = () => {
   return (
     <div className="py-12 px-2 md:px-0 flex justify-center fade-in-up">
-      <div className="w-full max-w-6xl  rounded-lg flex flex-col lg:flex-row overflow-hidden">
+      <div className="w-full max-w-6xl rounded-lg flex flex-col lg:flex-row overflow-hidden">
         {/* Left: Image section */}
         <div className="w-full lg:w-1/2 h-64 lg:h-auto">
           <img
-            src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80"
+            src={contactIcon}
             alt="Hand holding phone in front of whiteboard"
             className="w-full h-full object-cover"
           />

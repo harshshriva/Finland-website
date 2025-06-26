@@ -1,4 +1,5 @@
 import React from "react";
+import whyChooseUsIcon from "../src/assets/whychoose.jpeg"; // Assuming you have an icon for this section
 
 const WhyChooseUs: React.FC = () => {
   return (
@@ -40,7 +41,7 @@ const WhyChooseUs: React.FC = () => {
         {/* Right: Image section */}
         <div className="w-full lg:w-1/2 h-64 lg:h-auto fade-in-up">
           <img
-            src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80"
+            src={whyChooseUsIcon}
             alt="Student in nature with mountains"
             className="w-full h-full object-cover"
           />

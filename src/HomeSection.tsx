@@ -1,5 +1,5 @@
 import React from "react";
-
+import homeIcon from "../src/assets/home.jpeg"
 const HomeSection: React.FC = () => {
   return (
     <div className="py-12 px-2 md:px-0 flex justify-center mt-6 fade-in-up">
@@ -7,7 +7,7 @@ const HomeSection: React.FC = () => {
         {/* Left: Image section */}
         <div className="w-full lg:w-1/2 h-64 lg:h-auto fade-in-up">
           <img
-            src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80"
+            src={homeIcon}
             alt="Graduation caps in the air"
             className="w-full h-full object-cover"
           />
