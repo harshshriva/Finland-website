@@ -1,7 +1,9 @@
 import React from "react";
 import genevaIcon from "./assets/study destination/Geneva.png";
+import { useNavigate } from "react-router-dom";
 
 const Geneva: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <div className="py-12 px-2 md:px-0 flex justify-center fade-in-up">
       <div className="w-full max-w-6xl rounded-lg flex flex-col lg:flex-row overflow-hidden">
@@ -21,6 +23,9 @@ const Geneva: React.FC = () => {
               Geneva is known for its multicultural environment and top-notch universities with presence of many global organizations. It offers high quality of life and gives access to many cultural activities. It provides numerous career opportunities and a strong educational platform for professional development.
             </div>
           </div>
+          <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-full font-semibold shadow hover:bg-blue-700 transition-colors duration-200 w-max" onClick={() => navigate("/contact")}>
+            Contact Us
+          </button>
         </div>
       </div>
     </div>

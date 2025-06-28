@@ -1,7 +1,9 @@
 import React from "react";
 import SpainIcon from "./assets/study destination/Spain.png";
+import { useNavigate } from "react-router-dom";
 
 const Spain: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <div className="py-12 px-2 md:px-0 flex justify-center fade-in-up">
       <div className="w-full max-w-6xl rounded-lg flex flex-col lg:flex-row overflow-hidden">
@@ -21,6 +23,9 @@ const Spain: React.FC = () => {
               Spain is known for its enriched culture, affordable cost of living and endless career opportunities. It is famous for its world class education and prestigious universities providing promising career opportunities and a very strong job market.
             </div>
           </div>
+          <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-full font-semibold shadow hover:bg-blue-700 transition-colors duration-200 w-max" onClick={() => navigate("/contact")}>
+            Contact Us
+          </button>
         </div>
       </div>
     </div>
