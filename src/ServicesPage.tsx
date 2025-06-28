@@ -11,7 +11,7 @@ const services = [
   },
   {
     title: 'WORK VISA',
-    icon: '🎓',
+    icon: '💼',
     iconBg: '#FFFFFF',
     desc: 'We assist and guide you in getting the job that best suits your capabilities and matches the skills required for a particular job thus helping you achieving your future goals.',
     btn: 'APPLY NOW',
