@@ -13,7 +13,7 @@ const services = [
     title: 'WORK VISA',
     icon: '🎓',
     iconBg: '#FFFFFF',
-    desc: 'We help you find the right university and course that matches your career goals and aspirations. Our experts provide comprehensive support in preparing and submitting your application.',
+    desc: 'We assist and guide you in getting the job that best suits your capabilities and matches the skills required for a particular job thus helping you achieving your future goals.',
     btn: 'APPLY NOW',
   },
   {
