@@ -24,7 +24,7 @@ const HomeSection: React.FC = () => {
               <li className="flex items-start fade-in-up"><span className="text-green-600 mr-2 mt-1">✓</span><span><span className="font-bold">Transparent and Honest Dealings:</span> We believe in complete transparency and honesty in all our dealings.</span></li>
               <li className="flex items-start fade-in-up"><span className="text-green-600 mr-2 mt-1">✓</span><span><span className="font-bold">Personalized Guidance:</span> Step-by-step personalized guidance at every stage.</span></li>
               <li className="flex items-start fade-in-up"><span className="text-green-600 mr-2 mt-1">✓</span><span><span className="font-bold">Multiple City Touchpoints:</span> Access our services no matter where you are.</span></li>
-              <li className="flex items-start fade-in-up"><span className="text-green-600 mr-2 mt-1">✓</span><span><span className="font-bold">Post-Landing Facilities:</span> Comprehensive support upon arrival, including accommodation, food, and transportation.</span></li>
+              <li className="flex items-start fade-in-up"><span className="text-green-600 mr-2 mt-1">✓</span><span><span className="font-bold">Post-Landing Services:</span> Comprehensive support upon arrival, including accommodation, food, and transportation.</span></li>
             </ul>
           </div>
         </div>

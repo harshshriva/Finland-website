@@ -40,7 +40,7 @@ const LandingSection: React.FC = () => {
             Finland
           </span>
           <br />
-          <span className="bg-gradient-to-r from-lime-400 via-green-400 to-emerald-400 bg-clip-text text-transparent inline-block transform hover:-rotate-1 transition-transform duration-300">
+          <span className="bg-gradient-to-r from-blue-400 via-blue-600 to-white bg-clip-text text-transparent inline-block transform hover:-rotate-1 transition-transform duration-300">
             Simplified
           </span>
         </h1>
