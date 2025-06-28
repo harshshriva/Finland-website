@@ -72,7 +72,7 @@ const App = () => {
             href="https://wa.me/358415798714"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-lg font-medium text-white hover:underline flex items-center"
+            className="text-lg font-medium text-white flex items-center"
           >
             +35 8415798714 <span className="text-sm ml-1">(Call/WhatsApp)</span>
           </a>
