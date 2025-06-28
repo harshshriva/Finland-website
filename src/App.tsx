@@ -40,7 +40,6 @@ function HomePage() {
       {/* Optional Sections on Homepage */}
       <HomeSection />
       <ServicesPage />
-      <Destinations />
       <WhyChooseUs />
       <ContactSection />
     </>
