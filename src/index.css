@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --logo-green: #a3c75a;
-  --logo-black: #191919;
-}
 
 body, html {
   background-color: var(--logo-green);
