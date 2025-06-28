@@ -26,6 +26,9 @@ const ContactSection = () => {
             and career goals.
           </p>
           <p className="mb-2 text-black">
+            <span className="font-bold">Name:</span> Gunjan Verma (Director)
+          </p>
+          <p className="mb-2 text-black">
             <span className="font-bold">Phone:</span> +35 8415798714
           </p>
           <p className="mb-2 text-black">
