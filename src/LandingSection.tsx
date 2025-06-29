@@ -46,7 +46,7 @@ const LandingSection: React.FC = () => {
         </h1>
         
         {/* Description */}
-        <p className="text-yellow-400 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed font-light mb-8">
+        <p className="text-yellow-400 text-2xl md:text-2xl max-w-3xl mx-auto leading-relaxed font-bold mb-8">
           Experience the land of a thousand lakes, midnight sun, and innovative design. 
           Your gateway to authentic Finnish culture and breathtaking Nordic landscapes.
         </p>
