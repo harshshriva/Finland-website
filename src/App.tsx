@@ -66,8 +66,8 @@ const App = () => {
             style={{ background: "#2d3e50" }}
           />
         </div>
-        <div className="flex items-center gap-4 mt-2 md:mt-0 text-white">
-          +35 8415798714 <span className="text-sm ml-1">(Call/WhatsApp)</span>
+        <div className="flex items-center gap-4 mt-2 md:mt-0 font-bold text-white">
+          +35 8415798714 (Call/WhatsApp)
         </div>
       </header>
 
