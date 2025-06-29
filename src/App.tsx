@@ -67,14 +67,7 @@ const App = () => {
           />
         </div>
         <div className="flex items-center gap-4 mt-2 md:mt-0">
-          <a
-            href="https://wa.me/358415798714"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-lg font-medium text-white flex items-center"
-          >
-            +35 8415798714 <span className="text-sm ml-1">(Call/WhatsApp)</span>
-          </a>
+          +35 8415798714 <span className="text-sm ml-1">(Call/WhatsApp)</span>
         </div>
       </header>
 
