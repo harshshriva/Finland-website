@@ -46,22 +46,11 @@ const LandingSection: React.FC = () => {
         </h1>
         
         {/* Description */}
-        <p className="text-white/80 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed font-light mb-8">
+        <p className="text-yellow-400 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed font-light mb-8">
           Experience the land of a thousand lakes, midnight sun, and innovative design. 
           Your gateway to authentic Finnish culture and breathtaking Nordic landscapes.
         </p>
       </div>
-      
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
-        <div className="flex flex-col items-center animate-bounce">
-          <span className="text-white/60 text-sm mb-2">Scroll to explore</span>
-          <svg className="w-6 h-6 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-          </svg>
-        </div>
-      </div>
-      
       {/* Decorative Elements */}
       <div className="absolute top-10 right-10 w-20 h-20 border border-lime-400/30 rounded-full z-15 animate-spin" style={{ animationDuration: '20s' }}></div>
       <div className="absolute bottom-20 left-10 w-12 h-12 border border-lime-400/40 rounded-full z-15 animate-ping" style={{ animationDuration: '4s' }}></div>

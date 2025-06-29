@@ -10,9 +10,6 @@ const WhyChooseUs: React.FC = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-8 text-black">Why Choose Us?</h1>
           <ul className="list-disc pl-6 space-y-3 text-black">
             <li className="fade-in-up">
-              <span className="font-bold">BEFORE YOU DECIDE TO CONSULT OTHERS, REMEMBER, WE OFFER:</span>
-            </li>
-            <li className="fade-in-up">
               <span className="font-bold">Transparent and Honest Dealings</span>
               <div className="text-sm mt-1">
                 At Finland Simplified, we pride ourselves on our commitment to transparency and honesty. We understand that the process of applying for higher education abroad can be daunting and filled with uncertainties. That's why we ensure that every step of your journey is clear and straightforward.

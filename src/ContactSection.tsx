@@ -40,6 +40,10 @@ const ContactSection = () => {
               finlandsimplifiedconsulting@gmail.com
             </a>
           </p>
+          <p className="mb-2 text-black">
+            <span className="font-bold">Address:</span>{" "}
+              Niittykummuntie Espoo 02200 Finland
+          </p>
           <div className="mb-2 text-black">
             <span className="font-bold">Office Locations</span>
             <br />
