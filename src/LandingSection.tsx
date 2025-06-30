@@ -12,7 +12,7 @@ const LandingSection: React.FC = () => {
       />
       
       {/* Overlay Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center px-4 mt-8">
+      <div className="relative z-10 flex flex-col items-center justify-center px-4 mt-8 pt-12">
         <div className="text-center mt-10 pt-8">
           {/* Main Title */}
           <h1 className="text-[#002F6C] font-black text-5xl md:text-6xl lg:text-[8rem] leading-none tracking-tight mb-4
