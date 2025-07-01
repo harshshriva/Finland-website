@@ -15,7 +15,7 @@ const LandingSection: React.FC = () => {
       <div className="relative z-10 flex flex-col items-center justify-center px-4 mt-8 pt-12">
         <div className="text-center mt-10 pt-8">
           {/* Main Title */}
-          <h1 className="text-[#002F6C] font-black text-5xl md:text-6xl lg:text-[8rem] leading-none tracking-tight mb-4
+          <h1 className="text-[#002F6C] font-black text-5xl md:text-6xl lg:text-[8rem] leading-none tracking-tight mb-4 pt-4
             drop-shadow-[0_2px_0_white]
             drop-shadow-[2px_0_0_white]
             drop-shadow-[-2px_0_0_white]
@@ -31,7 +31,7 @@ const LandingSection: React.FC = () => {
           </h2>
           
           {/* Subtitle */}
-          <p className="text-white text-lg md:text-xl lg:text-2xl font-medium text-center max-w-4xl mx-auto leading-relaxed drop-shadow-[0_4px_8px_rgba(0,0,0,0.7)]">
+          <p className="text-yellow-500 text-lg md:text-xl lg:text-2xl font-medium text-center max-w-4xl mx-auto leading-relaxed drop-shadow-[0_4px_8px_rgba(0,0,0,0.7)]">
             Experience the land of a thousand lakes, midnight sun, and innovative design.
             <br />
             Your gateway to authentic Finnish culture and breathtaking Nordic landscapes.
