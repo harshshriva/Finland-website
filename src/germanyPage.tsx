@@ -17,11 +17,11 @@ const Germany: React.FC = () => {
         </div>
         {/* Right: Content section */}
         <div className="w-full lg:w-1/2 p-8 flex flex-col justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-black">
+          <h1 className="text-4xl md:text-6xl font-bold mb-8 text-black">
             Study In Germany
           </h1>
           <div className="mb-6 fade-in-up">
-            <div className="text-black mt-1">
+            <div className="text-black md:text-2xl">
               Germany is most renowned amongst international students due to its
               high-quality education and fabulous career prospects and it
               provides versatile and wide range of educational programmes. It

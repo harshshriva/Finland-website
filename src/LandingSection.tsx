@@ -31,7 +31,7 @@ const LandingSection: React.FC = () => {
           </h2>
           
           {/* Subtitle */}
-          <p className="text-[#002F6C] text-lg md:text-xl lg:text-2xl font-medium text-center max-w-4xl mx-auto leading-relaxed drop-shadow-[0_4px_8px_rgba(0,0,0,0.7)]">
+          <p className="text-[#002F6C] text-lg md:text-xl lg:text-2xl font-bold text-center max-w-4xl mx-auto leading-relaxed drop-shadow-[0_4px_8px_rgba(0,0,0,0.7)]">
             Experience the land of a thousand lakes, midnight sun, and innovative design.
             <br />
             Your gateway to authentic Finnish culture and breathtaking Nordic landscapes.

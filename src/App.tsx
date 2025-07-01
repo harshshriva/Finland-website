@@ -67,7 +67,7 @@ const App = () => {
           />
         </div>
         <div className="flex items-center gap-4 mt-2 md:mt-0 font-bold text-white">
-          +35 8415798714 (Call/WhatsApp)
+          +358 41 579 8714 (Call/WhatsApp)
         </div>
       </header>
 

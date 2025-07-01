@@ -17,9 +17,9 @@ const Spain: React.FC = () => {
         </div>
         {/* Right: Content section */}
         <div className="w-full lg:w-1/2 p-8 flex flex-col justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-black">Study In Spain</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-8 text-black">Study In Spain</h1>
           <div className="mb-6 fade-in-up">
-            <div className="text-black mt-1">
+            <div className="text-black md:text-2xl">
               Spain is known for its enriched culture, affordable cost of living and endless career opportunities. It is famous for its world class education and prestigious universities providing promising career opportunities and a very strong job market.
             </div>
           </div>
