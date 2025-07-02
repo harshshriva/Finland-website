@@ -84,7 +84,7 @@ const App = () => {
           to="/homeSection"
           className="font-bold text-base md:text-lg text-white"
         >
-          HOME
+          HOMEs
         </Link>
         <Dropdown overlay={studyMenu} trigger={["hover"]}>
           <a className="font-bold text-base md:text-lg text-white flex items-center gap-1 cursor-pointer">
