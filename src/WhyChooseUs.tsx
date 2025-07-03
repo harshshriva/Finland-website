@@ -4,7 +4,8 @@ import whyChooseUsIcon from "../src/assets/whychoose.jpeg"; // Assuming you have
 const WhyChooseUs: React.FC = () => {
   return (
     <div className="py-12 px-2 md:px-0 flex justify-center fade-in-up">
-      <div className="w-full max-w-6xl rounded-lg flex flex-col lg:flex-row overflow-hidden">
+      {/* Change flex direction: col-reverse on mobile, row on lg */}
+      <div className="w-full max-w-6xl rounded-lg flex flex-col-reverse lg:flex-row overflow-hidden">
         {/* Left: Text section */}
         <div className="w-full lg:w-1/2 p-8 flex flex-col justify-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-8 text-black">Why Choose Us?</h1>
@@ -48,4 +49,4 @@ const WhyChooseUs: React.FC = () => {
   );
 };
 
-export default WhyChooseUs; 
+export default WhyChooseUs;
