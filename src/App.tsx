@@ -1,6 +1,6 @@
 import { Menu, Dropdown } from "antd";
 import { DownOutlined } from "@ant-design/icons";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, Navigate } from "react-router-dom";
 import LandingSection from "./LandingSection";
 import HomeSection from "./HomeSection";
 import ServicesPage from "./ServicesPage";
@@ -123,6 +123,7 @@ const App = () => {
           <Route path="/germany" element={<GermanyPage />} />
           <Route path="/spain" element={<SpainPage />} />
           <Route path="/geneva" element={<GenevaPage />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
     </div>
