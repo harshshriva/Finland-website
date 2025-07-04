@@ -2,7 +2,7 @@ import React from "react";
 import germanyIcon from "./assets/study destination/germany.png";
 import { useNavigate } from "react-router-dom";
 
-const GermanyPage: React.FC = () => {
+const Germany: React.FC = () => {
   const navigate = useNavigate();
   return (
     <div className="py-12 px-2 md:px-0 flex justify-center fade-in-up">
@@ -38,4 +38,4 @@ const GermanyPage: React.FC = () => {
   );
 };
 
-export default GermanyPage;
+export default Germany;
