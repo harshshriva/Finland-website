@@ -9,7 +9,7 @@ import logo from "./assets/logo.png";
 import Destinations from "./Destinations";
 import WhyChooseUs from "./WhyChooseUs";
 import { useNavigate } from "react-router-dom";
-import GermanyPage from "./germanyPage";
+import GermanyPage from "./GermanyPage";
 import SpainPage from "./Spain";
 import GenevaPage from "./Geneva";
 
