@@ -17,6 +17,13 @@ const services = [
     btn: "APPLY NOW",
   },
   {
+    title: "STUDY VISA",
+    icon: "🎓",
+    iconBg: "#FFFFFF",
+    desc: "We help you find the right university and course that matches your career goals and aspirations. Our experts provide comprehensive support in preparing and submitting your application.",
+    btn: "APPLY NOW",
+  },
+  {
     title: "VISA PROCESSING",
     icon: "👨‍✈️",
     iconBg: "#FFFFFF",
